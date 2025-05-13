@@ -1,38 +1,38 @@
 # 🌌 StellarSnap
 
-Explore the cosmos one day at a time — StellarSnap is a sleek, responsive web app that brings you NASA's **Astronomy Picture of the Day** (APOD) with a smooth and modern interface.
+Explore the cosmos one day at a time. **StellarSnap** is a sleek, responsive web app that brings you NASA's Astronomy Picture of the Day (APOD) with a smooth, modern interface.
 
-🛰️ **Live site:** [stellarsnap.space](https://stellarsnap.space)
+🔗 **Live site**: [stellarsnap.space](https://stellarsnap.space)
 
 ---
 
 ## ✨ Features
 
-- 🔭 View NASA's Astronomy Picture of the Day
-- 📅 Browse images by date (from 1995 to today)
-- ⭐ Mark favorites and view them later
-- 🖼️ Fullscreen modal viewer for high-resolution images
-- 🎨 Dark mode by default with clean Tailwind UI
-- 🛸 Responsive design — works beautifully on mobile and desktop
-- 💾 Data stored locally (favorites persist)
-- 🔐 API key securely handled via Netlify functions
+- 🔭 Browse NASA's Astronomy Picture of the Day
+- 📅 Select dates from 1995 to today
+- ⭐ Mark favorites and view them in a separate gallery
+- 🖼️ Fullscreen modal viewer for high-res images
+- 🎨 Clean dark mode UI (Tailwind CSS)
+- 📱 Fully responsive (mobile + desktop)
+- 💾 LocalStorage-based persistence (no login required)
+- 🔐 API key securely handled via Netlify serverless functions
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** React, Tailwind CSS, React Router
-- **API:** NASA APOD API
-- **Hosting:** Netlify
-- **Deployment:** CI/CD via GitHub & Netlify
-- **Other:** React Icons, custom modals, date picker
+- **Frontend**: React, Tailwind CSS, React Router
+- **API**: NASA APOD API
+- **Hosting**: Netlify
+- **Deployment**: GitHub CI/CD
+- **Extras**: React Icons, custom modals, date picker
 
 ---
 
 ## 🙋 About the Project
 
-StellarSnap was created to combine my interest in frontend development with a personal love for space and astronomy. It was also an opportunity to:
+**StellarSnap** was created to combine my frontend development skills with a personal love for space and astronomy. It also served as a practical exercise to:
 
-- Practice component-based architecture in React
-- Learn API integration and secure environment variable handling
-- Build a fully deployed and mobile-ready portfolio project
+- Build modular UI using React components
+- Integrate and securely manage external APIs
+- Deploy a mobile-first, production-ready web app
