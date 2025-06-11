@@ -20,6 +20,7 @@ It’s designed to highlight the beauty of astronomy with performance, responsiv
   - Structured data, sitemap.xml, robots.txt  
 - ⚙️ Lightweight, privacy-friendly analytics via [Umami](https://umami.is/)
 - 🪐 Orbit Simulator: physics-based simulation where you choose a planet and set a satellite into orbit by adjusting its initial altitude, tangential, and radial velocity
+- 📖 Built-in **Glossary** and expanding **Encyclopedia** for learning astronomy terms and concepts
 
 ---
 
