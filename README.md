@@ -1,6 +1,7 @@
 # 🌌 StellarSnap
 
-Explore the cosmos one day at a time. **StellarSnap** is a sleek, SEO-optimized, responsive web app that brings you NASA's Astronomy Picture of the Day (APOD) with a modern interface and deep attention to performance, metadata, and UX.
+**StellarSnap** is a distraction-free, educational space explorer built on [NASA's Astronomy Picture of the Day (APOD)](https://apod.nasa.gov/).  
+It’s designed to highlight the beauty of astronomy with performance, responsiveness, and metadata hygiene in mind.
 
 🔗 **Live site**: [stellarsnap.space](https://stellarsnap.space)
 
@@ -8,51 +9,45 @@ Explore the cosmos one day at a time. **StellarSnap** is a sleek, SEO-optimized,
 
 ## ✨ Features
 
-- 🔭 Browse NASA's Astronomy Picture of the Day by date
-- 📅 Date picker with range support from 1995 to today
-- ⭐ Mark favorites and view them in a personal gallery
-- 🖼️ High-resolution fullscreen modal viewer
-- 🎨 Dark mode-first UI with Tailwind CSS
-- 📱 Fully responsive layout (mobile + desktop)
-- 💾 LocalStorage-based persistence (no login needed)
-- 🔍 Fully SEO-optimized:
-  - Dynamic page titles & Open Graph tags
-  - `sitemap.xml` & `robots.txt` generation
-  - Structured data for better discoverability
-- 📈 Google Analytics + Cloudflare Analytics integrated
-- 🔐 Secure API access with environment variable handling
+- 🔭 Browse NASA’s APOD archive from 1995 to today  
+- 📅 Date picker with full range support  
+- ⭐ Save favorites in a personal gallery (stored locally)  
+- 🖼️ High-resolution fullscreen image viewer  
+- 🌙 Dark mode-first UI using Tailwind CSS  
+- 📱 Fully responsive across devices  
+- 🔍 Fully SEO-optimized  
+  - Dynamic page titles, Open Graph tags  
+  - Structured data, sitemap.xml, robots.txt  
+- ⚙️ Lightweight, privacy-friendly analytics via [Umami](https://umami.is/)
+- 🪐 Orbit Simulator: physics-based simulation where you choose a planet and set a satellite into orbit by adjusting its initial altitude, tangential, and radial velocity
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Framework**: Next.js (App Router, Server Components)
-- **Styling**: Tailwind CSS
-- **API**: NASA APOD API
-- **State**: React hooks
-- **Routing**: Next.js file-based routing with dynamic metadata
-- **Hosting**: Vercel (production, HTTPS, CDN-backed)
-- **Analytics**: Google Analytics (GA4) + Cloudflare Web Analytics
-- **SEO**: Structured data, dynamic Open Graph & Twitter cards
+- **Framework**: Next.js (App Router, Server Components)  
+- **Styling**: Tailwind CSS  
+- **State**: React hooks  
+- **Routing**: Dynamic metadata via file-based routing  
+- **Hosting**: Vercel (CDN + HTTPS)  
+- **Analytics**: Umami (self-hosted, no tracking cookies)  
+- **SEO**: Structured metadata, Open Graph, Twitter cards
 
 ---
 
-## 📦 Deployment & DevOps
+## 🚀 DevOps & Deployment
 
-- **Environment**: `.env.local` for API keys and base URLs
-- **Production**: Vercel deployment connected to GitHub
-- **CI/CD**: Automatic deployments on push to `main`
-- **Domain**: Custom domain with Vercel-managed DNS (`stellarsnap.space`)
+- Hosted on Vercel with GitHub CI/CD  
+- Production domain: [stellarsnap.space](https://stellarsnap.space)
 
 ---
 
-## 🙋 About the Project
+## 🙋 About
 
-**StellarSnap** was born from a love for astronomy and frontend development. Originally built with React + Vite, it has evolved into a polished, production-grade Next.js app with a strong focus on:
+StellarSnap was created to make astronomy more accessible, clean, and enjoyable — free from clutter, ads, or commercial noise.
 
-- Performance and responsive design
-- Accessibility and user experience
-- SEO and metadata hygiene
-- Clean architecture and code maintainability
+It began as a personal curiosity project and has grown into a focused, long-term educational tool.  
+All design, development, and direction are maintained by a single developer.
 
-This project serves as both a portfolio piece and a passion project — blending technology with wonder.
+> 📝 **StellarSnap has been promoted by Prof. Robert Nemiroff** (co-creator of APOD) on [NASA's APOD About page](https://apod.nasa.gov/apod/lib/about_apod.html), listed under Modern Formats.
+
